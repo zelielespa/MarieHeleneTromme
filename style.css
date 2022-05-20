@@ -1,0 +1,560 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amatic+SC:wght@700&family=Josefin+Sans&display=swap');
+
+
+/*
+font-family: 'Abril Fatface', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Josefin Sans', sans-serif;
+
+*/
+
+html, body{
+    height: 100%;
+    /*scroll-behavior: smooth;*/
+}
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #8DC1A5;
+    width: 100%;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+}
+
+header .wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    width: 128px;
+}
+
+nav{
+    /* height: 144px; */
+    width: 70%;
+    background-color: #8DC1A5; 
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    
+}
+
+nav ul li{
+    height: 50px;
+    flex: 1;
+}
+
+nav ul li a{
+    font-family: 'Amatic SC', cursive;
+    font-size: 27px;
+    display: block;
+    height: 40px;
+    width: 100%;
+    text-align:center;
+    line-height: 40px;
+    color:white;
+    text-decoration: none;
+    border-left: solid 1px white;
+}
+
+nav ul li:nth-child(1) a{
+    border-left:none;
+}
+
+nav ul li a:hover{
+    color: #5e8772;
+}
+
+.slide{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#accueil{
+    background-color: #E2FFF0;
+    height:110%;
+}
+
+#ligne1{
+    width: 686px;
+    margin-left: -50px;
+    margin-top: 300px;
+    position: relative;
+}
+
+#ligne2{
+    margin-left: -50px;
+    position: relative;
+}
+
+
+#ligne3{
+    margin-left: -50px;
+    position: relative;
+}
+
+#masque{
+    position: absolute;
+    z-index: 2;
+    margin-left: -650px;
+    margin-top: -240px;
+}
+
+#robe{
+    position: absolute;
+    z-index: 2;
+    margin-left: -400px;
+    margin-top: -350px;
+
+}
+
+#boutoncostume{
+    position: relative;
+    z-index: 2;
+    width: 213px;
+    height: 77px;
+    background-color:#A8D6BD;
+    font-family: 'Abril Fatface', cursive;
+    color: black;
+    display: block;
+    text-align:center;
+    text-decoration: none;
+    font-size: 27px;
+    align-items: center;
+}
+
+#boutoncostume2{
+    position: relative;
+    width: 213px;
+    height: 77px;
+    background-color:#CAF1DC;
+    margin-left: 18px;
+    margin-top: -60px;
+}
+
+#vague1{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+#presentation{
+    background-color: #FBF4D2;
+}
+
+#ellipse3{
+    position: absolute;
+    right: -42px;
+    bottom: 5px;
+    
+}
+
+#morceauforme{
+    position: absolute;
+    right: -36px;
+    bottom: 0px;
+    z-index: 2;
+}
+
+#ellipse1{
+    position: absolute;
+    right: 120px;
+    top:-100px;
+}
+
+#Marie-Helene{
+    width: 418px;
+    height: 122px;
+    font-family: 'Abril Fatface', cursive;
+    color: black;
+    font-size: 48px;
+    right: 400px;
+    position: absolute;
+    text-align: center;
+    margin-top: 350px;
+}
+
+#costumiereetsceno{
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    right: 455px;
+    position: absolute;
+    margin-top: 500px;
+    color: black;
+    z-index: 2;
+
+}
+#fluo{
+    width: 330px;
+    height: 20px;
+    background-color: #A8D6BD;
+    margin-top: 530px;
+    right: 441px;
+    position: absolute;
+
+}
+
+/**-------------------------------**/
+
+#presentation{
+    height: 110%;
+}
+#ellipse2{
+    right: -42px;
+    top: -5px;
+    position: absolute;
+}
+
+#vecteur1{
+    left: 0;
+    bottom: 40px;
+    position: absolute;
+}
+
+#vecteur2{
+    left: 0;
+    bottom: 205px;
+    position: absolute;
+}
+
+#vecteur3{
+    left: 0;
+    bottom: 120px;
+    position: absolute;
+}
+
+#vague2{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+}
+
+
+#pres{
+    font-size: 48px;
+    color: black;
+    font-family: 'Abril Fatface', cursive;
+    margin-top: 100px;
+    z-index: 150;
+    position: relative;
+    left:65px;
+
+}
+
+
+#fluo2{
+    width: 270px;
+    height: 20px;
+    background-color: #EDDF98;
+    opacity: 70%;
+    margin-top: -27px;
+    position: absolute;
+    margin-left:60px;
+}
+
+#textepres{
+    font-size: 20px;
+    color: black;
+    margin-top: 30px;    
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#textepres2{
+    font-size: 20px;
+    color: black;
+    padding-top: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    position: relative;
+    z-index: 100;
+}
+
+/* #fleche{
+    margin-left:180px;
+    margin-top: 70px;
+} */
+
+#video{
+    position: relative;
+    top: 200px;
+    right: 0;
+
+}
+
+
+
+/**-------------------------------**/
+
+
+
+#mescostumes{
+    height: 2000px;
+    background-color: #E2FFF0;
+}
+
+#formebizarre{
+    position: absolute;
+    right: -1px;
+    top: 200px;
+}
+
+#vagueb{
+    bottom: 0;
+    position: absolute;
+}
+
+#groupe2{
+    position: absolute;
+    bottom:0;
+    left: 0;
+}
+
+#titrecostume{
+    font-size: 48px;
+    color: black;
+    font-family: 'Abril Fatface', cursive;
+    margin-top: 100px;
+    z-index: 100;
+    position: relative;
+    text-align: center;
+}
+
+#fluo3{
+    width: 335px;
+    height: 20px;
+    background-color: #A8D6BD;
+    margin-top: -27px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.galerie{
+    margin-top: 150px;
+}
+
+#rangee1 {
+    column-count:3;
+    column-gap:15px;
+    display: flex;
+ }
+
+ #rangee1 img{
+    height: 417px;
+    margin-bottom:15px; 
+    z-index: 200;
+ }
+
+ #rangee2 {
+    column-count:2;
+    column-gap:15px;
+    display: flex;
+ }
+
+ #rangee2 img{
+    height: 353px;
+    margin-bottom:15px; 
+    z-index: 200;
+ }
+
+ #photo6{
+    width: 1170px;
+    z-index: 200;
+ }
+
+ #boutoncostumeb{
+    position: relative;
+    z-index: 2;
+    width: 213px;
+    height: 77px;
+    background-color:#A8D6BD;
+    font-family: 'Abril Fatface', cursive;
+    color: black;
+    display: block;
+    text-align:center;
+    text-decoration: none;
+    font-size: 27px;
+    align-items: center;
+    line-height: 2.5;
+    left: 478.5px;
+    bottom: -100px;
+}
+
+#boutoncostumeb2{
+    position: relative;
+    width: 213px;
+    height: 77px;
+    background-color:#CAF1DC;
+    left: 496px;
+    bottom: -43px;
+}
+
+#petitsdessins{
+    z-index: 10;
+    position: absolute;
+    margin-top: -94px;
+    margin-left: 420px;
+}
+
+/**-------------------------------**/
+
+
+
+#messceno{
+    height: 2000px;
+    background-color: #FBF4D2;
+}
+
+#boutjaune{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#courbes{
+    position: absolute;
+    right: 0;
+    bottom: 100px;
+}
+
+#encore{
+    left: 0;
+    position: absolute;
+    bottom: 600px;
+}
+
+#titresceno{
+    font-size: 48px;
+    color: black;
+    font-family: 'Abril Fatface', cursive;
+    margin-top: 100px;
+    z-index: 100;
+    position: relative;
+    text-align: center;
+}
+
+#fluo4{
+    width: 448px;
+    height: 20px;
+    background-color: #EDDF98;
+    margin-top: -27px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.galerie{
+    margin-top: 150px;
+}
+
+#rangee4 {
+    column-count:3;
+    column-gap:15px;
+    display: flex;
+ }
+
+ #rangee4 img{
+    margin-bottom:15px; 
+    position: relative;
+    width:587.5px;
+ }
+
+ #rangee5 {
+    column-count:2;
+    column-gap:15px;
+    display: flex;
+ }
+
+ #rangee5 img{
+    height: 410px;
+    margin-bottom:15px; 
+    position: relative;
+ }
+
+ #rangee6{
+    column-count:2;
+    column-gap:15px;
+    display: flex;
+ }
+
+ #rangee6 img{
+    position: relative;
+    width:587.5px;
+ }
+
+
+ #boutonsceno{
+    position: relative;
+    z-index: 2;
+    width: 213px;
+    height: 77px;
+    background-color:#EDDF98;
+    font-family: 'Abril Fatface', cursive;
+    color: black;
+    display: block;
+    text-align:center;
+    text-decoration: none;
+    font-size: 27px;
+    align-items: center;
+    line-height: 2.5;
+    left: 478.5px;
+    bottom: -100px;
+}
+
+#boutonsceno2{
+    position: relative;
+    width: 213px;
+    height: 77px;
+    background-color:#FCF0B3;
+    left: 496px;
+    bottom: -43px;
+}
+
+#petitsdessins2{
+    position: absolute;
+    z-index: 10;
+    left: 54%;
+    bottom:105px;
+}
+
+#vague4{
+    bottom: 0;
+    position: absolute;
+}
+
+
+
+/**-------------------------------**/
+
+
+#contact{
+    background-color: #E2FFF0;
+}
+
+#triangle{
+    left:0;
+    bottom:50px;
+}
+
+#cercle{
+    right: 0;
+}
