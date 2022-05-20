@@ -288,16 +288,15 @@ nav ul li a:hover{
     z-index: 100;
 }
 
-/* #fleche{
-    margin-left:180px;
+#fleche{
+    margin-left:150px;
     margin-top: 70px;
-} */
+}
 
 #video{
+    margin-left: 50px;
     position: relative;
     top: 200px;
-    right: 0;
-
 }
 
 
@@ -548,13 +547,119 @@ nav ul li a:hover{
 
 #contact{
     background-color: #E2FFF0;
+    height: 120%;
 }
 
 #triangle{
     left:0;
     bottom:50px;
+    position: absolute;
 }
 
-#cercle{
+#cercle2{
+    position: absolute;
+    top:50px;
     right: 0;
+}
+
+
+#contact2{
+    font-size: 48px;
+    color: black;
+    font-family: 'Abril Fatface', cursive;
+    margin-top: 100px;
+    z-index: 150;
+    position: relative;
+    margin-left: 5px;
+}
+
+#fluo5{
+    width: 340px;
+    height: 20px;
+    background-color: #A8D6BD;
+    margin-top: -27px;
+    position: absolute;
+    margin-left: 0px;
+}
+
+#formulaire{
+    margin-top: 30px;
+    background-color: #F7EEC1;
+    width: 532px;
+    height: 200px;
+}
+
+.form-group{
+    margin: 5px 0;
+}
+
+.form-group input{
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px 3px;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 2px #C9B44E;
+    color: black;
+    margin-left: 20px;
+}
+
+.form-group input{
+    width: 90%;
+}
+
+
+#commentaire{
+    border: none;
+    background-color: #F7EEC1;
+    margin-top: 70px;
+    padding: 10px 15px;
+    width: 900px;
+    resize: none;
+    height: 460px;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    position: relative;
+    z-index: 100;
+}
+
+#envoyer{
+    font-size: 25px;
+    font-family: 'Abril Fatface', cursive;
+    padding: 5px 10px;
+    cursor: pointer;
+    position: relative;
+    width: 213px;
+    height: 77px;
+    background-color:#A8D6BD;
+    border: none;
+    margin-top: 50px;
+    left: 600px;
+    z-index: 100;
+
+}
+
+#envoyer2{
+    position: relative;
+    width: 213px;
+    height: 77px;
+    background-color:#CAF1DC;
+    left: 620px;
+    bottom: 60px;
+}
+
+#vague6{
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+}
+
+
+
+/**-------------------------------**/
+
+footer{
+    width: 100%;
+    background-color: #FBF4D2;
+    height: 200px;
 }
