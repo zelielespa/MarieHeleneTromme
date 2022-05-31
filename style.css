@@ -10,7 +10,7 @@ font-family: 'Josefin Sans', sans-serif;
 
 html, body{
     height: 100%;
-    /*scroll-behavior: smooth;*/
+    /* scroll-behavior: smooth; */
 }
 
 *{
@@ -140,6 +140,12 @@ nav ul li a:hover{
     text-decoration: none;
     font-size: 27px;
     align-items: center;
+
+}
+
+#boutoncostume:hover{
+    background-color:#5a836e;
+    color: white;
 }
 
 #boutoncostume2{
@@ -272,10 +278,22 @@ nav ul li a:hover{
     margin-left:60px;
 }
 
+#gif2 {
+    background-image: url(images/gifquisuisje.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 217px;
+    width: 591px;
+    right: -800px;
+    bottom: -8px;
+    position: relative;
+
+}
+
 #textepres{
     font-size: 20px;
     color: black;
-    margin-top: 30px;    
+    margin-top: -138px;    
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -298,6 +316,35 @@ nav ul li a:hover{
     position: relative;
     top: 200px;
 }
+/* 
+#boutonpres{
+    position: relative;
+    z-index: 2;
+    width: 213px;
+    height: 77px;
+    background-color:#EDDF98;
+    font-family: 'Abril Fatface', cursive;
+    color: black;
+    display: block;
+    text-align:center;
+    text-decoration: none;
+    font-size: 23px;
+    align-items: center;
+
+}
+
+#boutonpres2{
+    position: relative;
+    width: 213px;
+    height: 77px;
+    background-color:#FCF0B3;
+} */
+
+#boutonsceno:hover{
+    background-color:#d0bf6d;
+    color: white;
+}
+
 
 
 
@@ -347,8 +394,20 @@ nav ul li a:hover{
     transform: translate(-50%);
 }
 
-.galerie{
+#galerie{
     margin-top: 150px;
+    position: relative;
+    z-index: 50;
+}
+
+
+#galerie img{
+    filter: grayscale(1);
+    transition: filter 1s; 
+}
+
+#galerie img:hover{
+    filter: grayscale(0);
 }
 
 #rangee1 {
@@ -407,12 +466,19 @@ nav ul li a:hover{
     bottom: -43px;
 }
 
+#boutoncostumeb:hover{
+    background-color:#5a836e;
+    color: white;
+}
+
+
 #petitsdessins{
     z-index: 10;
     position: absolute;
     margin-top: -94px;
     margin-left: 420px;
 }
+
 
 /**-------------------------------**/
 
@@ -528,6 +594,12 @@ nav ul li a:hover{
     bottom: -43px;
 }
 
+#boutonsceno:hover{
+    background-color:#d0bf6d;
+    color: white;
+}
+
+
 #petitsdessins2{
     position: absolute;
     z-index: 10;
@@ -547,7 +619,7 @@ nav ul li a:hover{
 
 #contact{
     background-color: #E2FFF0;
-    height: 120%;
+    height: 140%;
 }
 
 #triangle{
@@ -564,7 +636,7 @@ nav ul li a:hover{
 
 
 #contact2{
-    font-size: 48px;
+    font-size: 37px;
     color: black;
     font-family: 'Abril Fatface', cursive;
     margin-top: 100px;
@@ -574,10 +646,10 @@ nav ul li a:hover{
 }
 
 #fluo5{
-    width: 340px;
-    height: 20px;
+    width: 270px;
+    height: 17px;
     background-color: #A8D6BD;
-    margin-top: -27px;
+    margin-top: -20px;
     position: absolute;
     margin-left: 0px;
 }
@@ -585,8 +657,8 @@ nav ul li a:hover{
 #formulaire{
     margin-top: 30px;
     background-color: #F7EEC1;
-    width: 532px;
-    height: 200px;
+    width: 350px;
+    height: 150px;
 }
 
 .form-group{
@@ -594,7 +666,7 @@ nav ul li a:hover{
 }
 
 .form-group input{
-    font-size: 30px;
+    font-size: 18px;
     font-family: 'Josefin Sans', sans-serif;
     padding: 10px 3px;
     background-color: transparent;
@@ -612,54 +684,294 @@ nav ul li a:hover{
 #commentaire{
     border: none;
     background-color: #F7EEC1;
-    margin-top: 70px;
+    margin-top: 30px;
     padding: 10px 15px;
-    width: 900px;
+    width: 500px;
     resize: none;
-    height: 460px;
-    font-size: 30px;
+    height: 260px;
+    font-size: 18px;
     font-family: 'Josefin Sans', sans-serif;
     position: relative;
     z-index: 100;
 }
 
 #envoyer{
-    font-size: 25px;
+    font-size: 22px;
     font-family: 'Abril Fatface', cursive;
     padding: 5px 10px;
     cursor: pointer;
     position: relative;
-    width: 213px;
-    height: 77px;
+    width: 133px;
+    height: 60px;
     background-color:#A8D6BD;
     border: none;
-    margin-top: 50px;
-    left: 600px;
+    margin-top: 30px;
+    left: 250px;
     z-index: 100;
 
 }
 
 #envoyer2{
     position: relative;
-    width: 213px;
-    height: 77px;
+    width: 133px;
+    height: 60px;
     background-color:#CAF1DC;
-    left: 620px;
-    bottom: 60px;
+    left: 270px;
+    bottom: 45px;
 }
 
-#vague6{
-    bottom: 0;
-    width: 100%;
-    position: absolute;
+#envoyer:hover{
+    background-color:#5a836e;
+    color: white;
 }
+
+.gif{
+    background-image: url(images/giflettre.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 792px;
+    width: 591px;
+    right: -611px;
+    bottom: 274px;
+    position: relative;
+}
+
+/**-------------------------------**/
+
+
+
+
+
+#quisuisje{
+    background-color: #FBF4D2;
+    height: 170%;
+    padding-top: 100px;
+
+}
+
+#formepres1{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+}
+
+#formepres2{
+    position: absolute;
+    top: 300px;
+    right: 0px;
+}
+
+#formepres3{
+    position: absolute;
+    top: 1000px;
+    right: 400px;
+}
+
+#formepres4{
+    position: absolute;
+    top: 151.5%;
+    left: 0px;
+}
+
+#pres2{
+    font-size: 48px;
+    color: black;
+    font-family: 'Abril Fatface', cursive;
+    z-index: 150;
+    position: relative;
+    text-align: center;
+}
+
+
+#fluo8{
+    width: 250px;
+    height: 20px;
+    background-color: #EDDF98;
+    opacity: 70%;
+    margin-top: -27px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#bio1{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: justify;
+    padding-top: 120px;
+    width: 75%;
+    position: relative;
+    z-index: 100;
+    line-height: 25px;
+}
+
+#bio2{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: justify;
+    width: 75%;
+    padding-top: 70px;
+    position: relative;
+    right: -25%;
+    line-height: 25px;
+
+    
+
+}
+
+#bio3{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: justify;
+    width: 75%;
+    padding-top: 70px;
+    position: relative;
+    z-index: 100;
+    line-height: 25px;
+
+}
+
+#bio4{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: justify;
+    width: 75%;
+    padding-top: 70px;
+    position: relative;
+    right: -25%;
+    line-height: 25px;
+
+}
+
+#apprenezenplus{
+    padding-top: 120px;
+    font-size: 20px;
+    color: black;
+    margin-top: 30px;    
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+
+#video2{
+   position: relative;
+   left: 50%;
+   margin-top: 15px;
+   transform: translate(-50%);
+}
+
+
 
 
 
 /**-------------------------------**/
 
+
+
+
+
+
+#pagesceno{
+    font-family: 'Josefin Sans', sans-serif;
+    height: 300%;
+    background-color: #FBF4D2;
+}
+
+#def{
+    margin-top: 80px;
+    position: relative;
+    z-index: 100;
+    background-color:#EDDF98;
+    width:fit-content;
+    line-height: 30px;
+    font-size: 20px;
+
+}
+
+#textescenographie{
+    padding-top: 30px;
+    line-height: 30px;
+    font-size: 20px;
+
+}
+
+#again{
+    right: -60px;
+    position: absolute;
+}
+
+#mesprojets{
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    padding-top: 100px;
+}
+
+
+#galeriepagesceno{
+    margin-top: 20px;
+    position: relative;
+    z-index: 50;
+}
+
+
+
+
+/**-------------------------------**/
+
+
+
+
+
+
+
+/**-------------------------------**/
+
+
 footer{
+    position: absolute;
+    bottom: 0px;
     width: 100%;
     background-color: #FBF4D2;
-    height: 200px;
+    height: 150px;
+
 }
+
+#vague6{
+    top: -64px;
+    width: 100%;
+    position: absolute;
+    z-index: 150;
+}
+
+#vague7{
+    position: relative;
+    bottom: 100px;
+}
+
+#footer2{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: #E2FFF0;
+    height: 150px;
+
+}
+
+#logofooter{
+    left:50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    width: 60px;
+}
+
+#retour{
+    font-size: 14px;
+    width: 85px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Amatic SC', cursive;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 115px;
+    margin-left: 7px;
+
+}
+
